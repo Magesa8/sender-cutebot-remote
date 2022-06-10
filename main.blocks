@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="GYcW.):lZn2H%HTArz[0" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="C$#ETQ+*%uIjIn%25}H}"><value name="ID"><shadow type="math_number_minmax" id="mQS7gdU63$z[l~YeF;hH"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">0</field></shadow></value><next><block type="device_show_leds" id="I2@ne05?!mTd-nF9c4mK"><field name="LEDS">`
+        . # # # . 
+        . # . . . 
+        . # # # . 
+        . . . # . 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_button_event" id=")D@!xzR_2`r|C`t]60o!" x="284" y="-2"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="aH:Mk:LkqD+/w`i`OVW."><value name="msg"><shadow type="text" id="cM)1ttP(LP35L#c85!7m"><field name="TEXT">startstop</field></shadow></value></block></statement></block></xml>
